@@ -2,7 +2,7 @@ import React from 'react'
 
 function Body3() {
     return (
-        <div style={{ backgroundColor: "brown", height: "100vh"}}>
+        <div id= 'body3'>
             I am Body 3
         </div>
     )
