@@ -19,10 +19,9 @@ function Header() {
                     <Grid item xs={2} style = {{alignSelf:"center", paddingLeft:"30px", fontWeight:"2.5rem", alignContent: "center",  fontSize: "1.25rem"}}> 
                     <a href="#header"> BOOKS.PK </a> 
                     </Grid>
-                    <Grid item xs={5}> </Grid>
+                    <Grid item xs={6}> </Grid>
                     <Grid item xs={1} > <Button > <a href="#header"> HOME </a> </Button> </Grid> 
                     <Grid item xs={1} > <Button > <a href="#body2"> ABOUT </a> </Button> </Grid> 
-                    <Grid item xs={1} > <Button > <a href="#body3"> OFFERS </a> </Button> </Grid> 
                     <Grid item xs={1} > <Button > <a href="#body3"> DICOVER </a> </Button> </Grid> 
                     <Grid item xs={1} > <Button > <a href="#body4"> CONTACT </a> </Button> </Grid> 
                     
