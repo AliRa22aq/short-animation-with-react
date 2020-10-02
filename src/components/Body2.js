@@ -37,7 +37,11 @@ function Body2() {
              OUR MISSION IS TO MAKE BOOKS AVAILABLE IN EVERY HOUSE OF PAKISTAN 
             </div> 
             <div style={{ color:"red", padding: "100px 0px 0px 570px"}}> 
+            <a href="#body3"> 
+
                 <Button style={{ border:"1px", color:"red", fontSize:"1.25rem"}}> LEARN MORE </Button>
+            
+                </a>
             </div>
            
             </Grid>
