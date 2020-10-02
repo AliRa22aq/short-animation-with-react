@@ -1,4 +1,5 @@
 import React from 'react'
+import x from '../pictures/file.svg'
 
 function Body3() {
     return (
