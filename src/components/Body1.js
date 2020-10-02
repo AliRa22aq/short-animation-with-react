@@ -16,6 +16,8 @@ function Body1() {
       ...timing,
       delay: 1000, // Delay 1s
       duration: timing.duration * 0.75, // Speed up the animation
+      direction: "alternate", // Run the animation forwards and then backwards
+      easing: "ease-in-out", // Use a fancy timing function
     },
   });
   
@@ -25,7 +27,9 @@ function Body1() {
     timing: {
       ...timing,
       iterations: Infinity,
-      delay: 5000
+      delay: 5000,
+      duration: timing.duration * 0.75, // Speed up the animation
+
       
     },
   });
@@ -70,9 +74,9 @@ function Body1() {
           </div>
           
 
-          <div ref={b3} style={{ fontSize: "2rem", padding: "5rem 10rem" }}>
-            <Button style={{ fontSize: "2rem"}}> 
-            <a href="#body2"> 
+          <div id='explore' ref={b3} style={{ fontSize: "1.5rem", padding: "50px 0px 0px 500px" }}>
+            <Button  style={{ fontSize: "2rem"}}> 
+            <a href="#body2" >
             <img
               src='https://icons-for-free.com/iconfiles/png/512/down+arrow+download+icon-1320185738770602413.png'
               alt='down'
