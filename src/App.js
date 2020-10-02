@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Body2 from "./components/Body2";
 import Body3 from "./components/Body3";
 import Body4 from "./components/Body4";
+import Body5 from "./components/Body5";
+
 
 function App() {
   return (
