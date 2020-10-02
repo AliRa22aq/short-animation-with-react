@@ -21,11 +21,11 @@ function Body1() {
     },
   });
   
-  var { keyframes, timing } = flash;
+  var { keyframes1, timing1 } = flash;
   const { ref: b3 } = useWebAnimations({
-    keyframes,
+    keyframes: keyframes1,
     timing: {
-      ...timing,
+      ...timing1,
       iterations: Infinity,
       delay: 5000,
       duration: timing.duration * 0.75, // Speed up the animation
