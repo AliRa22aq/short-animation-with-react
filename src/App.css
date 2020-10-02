@@ -10,6 +10,11 @@ html {
   text-align: left;
 }
 
+#header a:link    {color:whitesmoke; text-decoration: none;}
+#header a:visited {color:whitesmoke; text-decoration: none;}
+#header a:hover   {color:whitesmoke; text-decoration: none;}
+#header a:active  {color:whitesmoke; text-decoration: none;}
+
 
 
 #body2 {
