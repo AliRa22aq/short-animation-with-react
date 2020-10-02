@@ -2,7 +2,7 @@ import { Grid, Button } from '@material-ui/core';
 import '../App.css';
 import React from 'react';
 import Typing from 'react-typing-animation';
-import useWebAnimations, { slideInUp, zoomIn, shakeY } from "@wellyshen/use-web-animations";
+import useWebAnimations, { slideInUp, zoomIn, flash } from "@wellyshen/use-web-animations";
 
 
 function Body1() {
@@ -18,8 +18,8 @@ function Body1() {
       duration: timing.duration * 0.75, // Speed up the animation
     },
   });
-
-  var { keyframes, timing } = shakeY;
+  
+  var { keyframes, timing } = flash;
   const { ref: b3 } = useWebAnimations({
     keyframes,
     timing: {
