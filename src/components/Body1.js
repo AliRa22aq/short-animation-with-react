@@ -20,7 +20,7 @@ function Body1() {
       easing: "ease-in-out", // Use a fancy timing function
     },
   });
-  
+
   var { keyframes1, timing1 } = flash;
   const { ref: b3 } = useWebAnimations({
     keyframes: keyframes1,
@@ -30,30 +30,30 @@ function Body1() {
       delay: 5000,
       duration: timing.duration * 0.75, // Speed up the animation
 
-      
+
     },
   });
 
   const TypingComponent = () => (
     <Typing loop={true} startDelay={2000} >
-          <span> ADVENTURE </span>
+      <span> ADVENTURE </span>
 
-          <Typing.Backspace count={12} delay={2000}/>
-          <span>CLASSICS </span>
+      <Typing.Backspace count={12} delay={2000} />
+      <span>CLASSICS </span>
 
-          <Typing.Backspace count={10} delay={2000}/>
-          <span> MYSTERY </span>
-
-
-          <Typing.Backspace count={9} delay={2000}/>
-          <span>FICTION</span>
+      <Typing.Backspace count={10} delay={2000} />
+      <span> MYSTERY </span>
 
 
-          <Typing.Backspace count={9} delay={2000}/>
-          <span>RELIGIOUS</span>
+      <Typing.Backspace count={9} delay={2000} />
+      <span>FICTION</span>
 
 
-          <Typing.Backspace count={10} delay={2000}/>
+      <Typing.Backspace count={9} delay={2000} />
+      <span>RELIGIOUS</span>
+
+
+      <Typing.Backspace count={10} delay={2000} />
     </Typing>
   );
 
@@ -69,25 +69,25 @@ function Body1() {
           </div>
             <div ref={b2}>
               OFFER
-              {TypingComponent()}              
+              {TypingComponent()}
+            </div>
           </div>
-          </div>
-          
+
 
           <div id='explore' ref={b3} style={{ fontSize: "1.5rem", padding: "50px 0px 0px 500px" }}>
-            <Button  style={{ fontSize: "2rem"}}> 
-            <a href="#body2" >
-            <img
-              src='https://icons-for-free.com/iconfiles/png/512/down+arrow+download+icon-1320185738770602413.png'
-              alt='down'
-              height="30px"
-              width="30px" />
+            <Button style={{ fontSize: "2rem" }}>
+              <a href="#body2" >
+                <img
+                  src='https://icons-for-free.com/iconfiles/png/512/down+arrow+download+icon-1320185738770602413.png'
+                  alt='down'
+                  height="30px"
+                  width="30px" />
               EXPLORE
-              </a>    
-              </Button>
-          
+              </a>
+            </Button>
+
           </div>
-          
+
         </Grid>
 
                   Picture
