@@ -23,7 +23,7 @@ function Header() {
                     <Grid item xs={1}> <Button > <a href="#header"> HOME </a> </Button> </Grid> 
                     <Grid item xs={1}> <Button > <a href="#body2"> Section1 </a> </Button> </Grid> 
                     <Grid item xs={1}> <Button > <a href="#body3"> Section2 </a> </Button> </Grid> 
-                    <Grid item xs={1}> <Button > <a href="#body4"> Section3 </a> </Button> </Grid> 
+                    <Grid item xs={1}> <Button > <a href="#body4"> CONTACT </a> </Button> </Grid> 
 
                     
                     </Grid>
