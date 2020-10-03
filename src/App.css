@@ -79,3 +79,14 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+#footer {
+  height: "100Vh";
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  align-content: center;
+  align-self: center;
+}
+
+
