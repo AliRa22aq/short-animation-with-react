@@ -66,10 +66,10 @@ function Footer() {
                 <Grid item xs={1}>
                     <div ref={b1} style={{display: "flex", alignItems: "center"}}>  
                 <a href="#header"> 
-                <img src='https://upload.wikimedia.org/wikipedia/commons/8/85/Arrow_top_svg.svg'
+                <img src='https://lh3.googleusercontent.com/proxy/PRt6U5t88FyaGbj8mRKNdqfK2kFUytOdtihgdWeSu8z-WHbP4DT3slMoBS-V8ufgjQHuIaeDhnINmRKC5S2MG9hvYsAZ9h5XAbOrAdxq51X0fRHMSzdY26rxAtkYNXENYheHypA'
                 alt = "top"
-                height="20px"
-                width= "20px" 
+                height="60px"
+                width= "60px" 
                 />
                 </a> </div> </Grid>
 
