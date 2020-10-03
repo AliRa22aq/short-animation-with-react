@@ -2,8 +2,6 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import useWebAnimations, { zoomIn } from "@wellyshen/use-web-animations";
 
-
-
 function Body4() {
     var { keyframes, timing } = zoomIn;
     const { ref: b1 } = useWebAnimations({
