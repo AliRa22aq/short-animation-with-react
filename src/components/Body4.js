@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Paper } from '@material-ui/core';
 import useWebAnimations, { zoomIn } from "@wellyshen/use-web-animations";
 
 
@@ -21,7 +21,43 @@ function Body4() {
         <div id= 'body4'>
             <Grid container>
                 <Grid item xs={6}>
-               Contact From     
+                    <div style={{ position: "absolute", padding: "75px 0px 0px 150px" }}>
+                        
+                           <h1 style={{ padding: "0px 0px 0px 150px"}}>   Contact US </h1>
+                           
+
+                            <form>
+                                <div id= 'form-control'>
+
+                                <label >First Name</label>
+                                <input type="text" name="firstname" placeholder="Your name.." required/>
+                                <br />
+
+                                
+                                <label>Last Name</label>
+                                <input type="text" name="lastname" placeholder="Your last name.." required/>
+                                <br />
+
+                                <label >State</label>
+                                <select name="country" required>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Sindh">Sindh</option>
+                                    <option value="KPK">KPK</option>
+                                    <option value="Balochistan">Balochistan</option>
+                                    <option value="GB">GB</option>
+
+                                </select>
+                                <br />
+
+                                <label >Subject</label>
+                                <textarea name="subject" placeholder="Write something.."> </textarea>
+                                <br />
+
+                                <input type="submit" id="submit" onSubmit={()=>{alert("Thanks for information")}}/>
+                                </div>
+
+                            </form>
+                    </div>
                 </Grid>
 
 
