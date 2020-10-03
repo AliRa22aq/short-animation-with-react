@@ -3,6 +3,7 @@ import '../App.css';
 import React from 'react';
 import Typing from 'react-typing-animation';
 import useWebAnimations, { slideInUp, zoomIn, flash } from "@wellyshen/use-web-animations";
+import book from './pictures/book.svg'
 
 
 function Body1() {
@@ -21,9 +22,9 @@ function Body1() {
     },
   });
 
-  var { keyframes:x, timing:y } = flash
+  var { keyframes: x, timing: y } = flash
   const { ref: b3 } = useWebAnimations({
-    keyframes:x,
+    keyframes: x,
     timing: {
       ...y,
       iterations: Infinity,
@@ -62,6 +63,7 @@ function Body1() {
 
       <Grid container>
         <Grid item xs={6} >
+
           <div style={{ fontWeight: "5rem", fontFamily: "arial", alignContent: "center", fontSize: "5rem" }}>
             <div ref={b1}>
               BOOKS WE
@@ -73,7 +75,7 @@ function Body1() {
           </div>
 
 
-          <div id='explore' ref={b3} style={{ fontSize: "1.5rem", padding: "50px 0px 0px 500px" }}>
+          <div id='explore' ref={b3} style={{ fontSize: "1.5rem", padding: "150px 0px 0px 500px" }}>
             <Button style={{ fontSize: "2rem" }}>
               <a href="#body2" >
                 <img
@@ -84,14 +86,17 @@ function Body1() {
               EXPLORE
               </a>
             </Button>
-
           </div>
 
         </Grid>
 
-                  Picture
-
+        <Grid item sx={6}>
+        <div style={{ padding: "0px 0px 0px 130px" }}>
+                <img src={book} alt='book' height="400px" width="400px" />
+            </div>
         </Grid>
+
+      </Grid>
     </div>
   )
 }
